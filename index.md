@@ -5,8 +5,8 @@
 本页面提供2025年中国科学技术大学工程硕士学位论文《基于语音表征学习的零样本语音转换及说话人匿名研究》的音频样本，以展示文中“互信息和孪生结构增强的语音转换模型”及“生成匿名表征的说话人匿名模型”的效果。前者与本学位论文作者发表于IJCNN 2025的文章*MAIN-VC: Lightweight Speech Representation Learning for One-Shot Voice Conversion*一致，故音频样本沿用了MAIN-VC的demo page。
 </p>
 
-## Audio Samples in VC Tasks
-Audio samples are taken from the VCTK dataset and AISHELL dataset.
+## 语音转换任务音频样本
+测试语音均来自VCTK数据集。其中“M2F”为“男性说话人到女性说话人的语音转换”的简称，M2M、F2M、F2F等简称同理。
 
 <script>
 function pauseOthers(ele) {
@@ -81,32 +81,28 @@ table {
         <th> F2F </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/u2u_raw/p225_001.mp3" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/u2u_raw/p268_004.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/ADAINVC/u2u/p225_001_p268_004.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/MAINVC/u2u/F2Fp225_001_p268_004.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/vc/u2u/F2Fp225_001_p268_004.mp3" type="audio/mpeg"></audio> </th>
 </tr>
 	
 <tr>
         <th> M2M </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/u2u_raw/p345_112.mp3" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/u2u_raw/p360_012.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/ADAINVC/u2u/p345_112_p360_012.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/MAINVC/u2u/M2Mp345_112_p360_012.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/vc/u2u/M2Mp345_112_p360_012.mp3" type="audio/mpeg"></audio> </th>
 </tr>
 
 <tr>
         <th> F2M </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/u2u_raw/p225_001.mp3" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/u2u_raw/p360_010.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/ADAINVC/u2u/p225_001_p360_010.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/MAINVC/u2u/F2Mp225_001_p360_010.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/vc/u2u/F2Mp225_001_p360_010.mp3" type="audio/mpeg"></audio> </th>
 </tr>
     
 <tr>
         <th> M2F </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/u2u_raw/p345_058.mp3" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/u2u_raw/p268_062.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/ADAINVC/u2u/p345_058_p268_062.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/MAINVC/u2u/M2Fp345_058_p268_062.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/vc/u2u/M2Fp345_058_p268_062.mp3" type="audio/mpeg"></audio> </th>
 </tr>
 </table>
 
