@@ -6,7 +6,7 @@
 </p>
 
 ## 语音转换任务音频样本
-测试语音均来自VCTK数据集。其中“M2F”为“男性说话人到女性说话人的语音转换”的简称，M2M、F2M、F2F等简称同理。
+表中“M2F”为“男性说话人到女性说话人的语音转换”的简称，M2M、F2M、F2F等简称同理。
 
 <script>
 function pauseOthers(ele) {
@@ -109,7 +109,6 @@ table {
 
 
 ## 说话人匿名任务音频样本
-测试语音来自VCTK数据集和LibriTTS数据集。
 
 <script>
 function pauseOthers(ele) {
