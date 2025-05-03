@@ -2,7 +2,7 @@
 
 ## 说明
 <p align="justify">
-本页面提供2025年中国科学技术大学工程硕士学位论文《基于语音表征学习的零样本语音转换及说话人匿名研究》的音频样本，以展示文中“互信息和孪生结构增强的语音转换模型”及“生成匿名表征的说话人匿名模型”的效果。前者与本学位论文作者发表于IJCNN 2025的文章*MAIN-VC: Lightweight Speech Representation Learning for One-Shot Voice Conversion*一致，故音频样本沿用了MAIN-VC的demo page。
+本页面提供2025年中国科学技术大学工程硕士学位论文《基于语音表征学习的零样本语音转换及说话人匿名研究》的音频样本，以展示文中“互信息和孪生结构增强的语音转换模型”及“生成匿名表征的说话人匿名模型”的效果。前者与本学位论文作者发表于IJCNN 2025的文章MAIN-VC: Lightweight Speech Representation Learning for One-Shot Voice Conversion一致，故音频样本沿用了MAIN-VC的demo page。
 </p>
 
 ## 语音转换任务音频样本
@@ -108,4 +108,35 @@ table {
 <p>&nbsp;</p> 
 
 
+## 说话人匿名任务音频样本
+测试语音来自VCTK数据集和LibriTTS数据集。
+
+<script>
+function pauseOthers(ele) {
+    $("audio").not(ele).each(function (index, audio) {audio.pause();});
+}
+</script>
+
+<table>
+	<CAPTION>表3 说话人匿名任务中的语音音频样本</CAPTION>
+    <tr>
+        <th>  </th>
+	<th> 原始语音 </th>
+        <th> 匿名语音 </th>
+    </tr>
+<tr>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p228_154.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p233_025.mp3" type="audio/mpeg"></audio> </th>
+</tr>
+	
+<tr>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p374_070.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p286_028.mp3" type="audio/mpeg"></audio> </th>
+</tr>
+
+<tr>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p313_300.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p363_041.mp3" type="audio/mpeg"></audio> </th>
+</tr>
+</table>
 
