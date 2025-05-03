@@ -33,9 +33,9 @@ table {
 	<CAPTION>表1 多说话人对多说话人语音转换任务中的语音音频样本</CAPTION>
     <tr>
         <th>  </th>
-	<th> Source </th>
-        <th> Target </th>
-	<th> MAIN-VC </th>
+	<th> 源语音 </th>
+        <th> 目标语音 </th>
+	<th> 转换语音 </th>
     </tr>
 <tr>
         <th> F2F </th>
@@ -72,10 +72,9 @@ table {
 	<CAPTION>表2 任意说话人到任意说话人语音转换（零样本语音转换）任务中的语音音频样本</CAPTION>
     <tr>
         <th>  </th>
-	<th> Source </th>
-        <th> Target </th>
-        <th> Baseline </th>
-	<th> MAIN-VC </th>
+	<th> 源语音 </th>
+        <th> 目标语音 </th>
+	<th> 转换语音 </th>
     </tr>
 <tr>
         <th> F2F </th>
