@@ -120,23 +120,22 @@ function pauseOthers(ele) {
 <table>
 	<CAPTION>表3 说话人匿名任务中的语音音频样本</CAPTION>
     <tr>
-        <th>  </th>
 	<th> 原始语音 </th>
         <th> 匿名语音 </th>
     </tr>
 <tr>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p228_154.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p233_025.mp3" type="audio/mpeg"></audio> </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/spkAno/p229_001.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/spkAno/p229_001_ano.mp3" type="audio/mpeg"></audio> </th>
 </tr>
 	
 <tr>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p374_070.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p286_028.mp3" type="audio/mpeg"></audio> </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/spkAno/p251_010.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/spkAno/p251_010_ano.mp3" type="audio/mpeg"></audio> </th>
 </tr>
 
 <tr>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p313_300.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p363_041.mp3" type="audio/mpeg"></audio> </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/spkAno/p280_182.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/spkAno/p280_182_ano.mp3" type="audio/mpeg"></audio> </th>
 </tr>
 </table>
 
