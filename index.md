@@ -2,7 +2,7 @@
 
 ## 说明
 <p align="justify">
-本页面提供2025年中国科学技术大学工程硕士学位论文《基于语音表征学习的零样本语音转换及说话人匿名研究》的音频样本，以展示文中“互信息和孪生结构增强的语音转换模型”及“生成匿名表征的说话人匿名模型”的效果。前者与本学位论文作者发表于IJCNN 2025的文章MAIN-VC: Lightweight Speech Representation Learning for One-Shot Voice Conversion一致，故音频样本沿用了MAIN-VC的demo page。
+本页面提供2025年中国科学技术大学工程硕士学位论文《基于语音表征学习的零样本语音转换及说话人匿名研究》的音频样本，以展示文中“互信息和孪生结构增强的语音转换模型”及“生成匿名表征的说话人匿名模型”的效果。前者与本学位论文作者发表于IJCNN 2025的文章MAIN-VC: Lightweight Speech Representation Learning for One-Shot Voice Conversion一致，故本页中语音转换的音频样本来自MAIN-VC的demo page。
 </p>
 
 ## 语音转换任务音频样本
