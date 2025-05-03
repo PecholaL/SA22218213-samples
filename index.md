@@ -53,7 +53,7 @@ table {
 <tr>
         <th> F2M </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/vcraw/p225_001.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/vcaw/p360_010.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/vcraw/p360_010.mp3" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/vc/F2Mp225_001_p360_010.mp3" type="audio/mpeg"></audio> </th>
 </tr>
     
